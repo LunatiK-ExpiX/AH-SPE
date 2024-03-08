@@ -24,7 +24,7 @@ strategic_mobility = {
 }
 point_defense_system = {
 	area = army_doctrine
-	year = 1848
+	year = 1836
 	cost = 10800
 	unciv_military = yes
 	engineer = {
@@ -38,7 +38,7 @@ point_defense_system = {
 }
 deep_defense_system = {
 	area = army_doctrine
-	year = 1865
+	year = 1836
 	cost = 14400
 	unciv_military = yes
 	engineer = {
@@ -52,7 +52,7 @@ deep_defense_system = {
 }
 infiltration = {
 	area = army_doctrine
-	year = 1904
+	year = 1836
 	cost = 18000
 	unciv_military = yes
 	army_base = {
@@ -63,7 +63,7 @@ infiltration = {
 }
 modern_army_doctrine = {
 	area = army_doctrine
-	year = 1920
+	year = 1836
 	cost = 21600
 	unciv_military = yes
 	army_base = {
@@ -100,14 +100,14 @@ breech_loaded_rifles = {
 }
 machine_guns = {
 	area = light_armament
-	year = 1854
+	year = 1836
 	cost = 14400
 	unciv_military = yes
 	combat_width = -5
 }
 bolt_action_rifles = {
 	area = light_armament
-	year = 1864
+	year = 1836
 	cost = 18000
 	unciv_military = yes
 	unit = 1
@@ -115,7 +115,7 @@ bolt_action_rifles = {
 }
 modern_divisional_structure = {
 	area = light_armament
-	year = 1880
+	year = 1836
 	cost = 21600
 	unciv_military = yes
 	unit = 2
@@ -164,7 +164,7 @@ steel_breech_loaded_artillery = {
 }
 indirect_artillery_fire = {
 	area = heavy_armament
-	year = 1865
+	year = 1836
 	cost = 18000
 	unciv_military = yes
 	artillery = {
@@ -176,7 +176,7 @@ indirect_artillery_fire = {
 }
 heavy_armament_dunno = {
 	area = heavy_armament
-	year = 1890
+	year = 1836
 	cost = 21600
 	unciv_military = yes
 	artillery = {
@@ -234,7 +234,7 @@ military_logistics = {
 }
 military_directionism = {
 	area = military_science
-	year = 1899
+	year = 1836
 	cost = 18000
 	unciv_military = yes
 
@@ -245,7 +245,7 @@ military_directionism = {
 }
 aeronautics = {
 	area = military_science
-	year = 1903
+	year = 1834
 	cost = 21600
 	army_base = {
 		default_organisation = 10
@@ -281,7 +281,7 @@ army_professionalism = {
 }
 army_decision_making = {
 	area = army_leadership
-	year = 1848
+	year = 1836
 	cost = 10800
 	unciv_military = yes
 	morale = 0.2
@@ -292,7 +292,7 @@ army_decision_making = {
 }
 army_risk_management = {
 	area = army_leadership
-	year = 1872
+	year = 1836
 	cost = 14400
 	unciv_military = yes
 	morale = 0.20
@@ -303,7 +303,7 @@ army_risk_management = {
 }
 army_nco_training = {
 	area = army_leadership
-	year = 1892
+	year = 1836
 	cost = 18000
 	unciv_military = yes
 	morale = 0.25
@@ -316,7 +316,7 @@ army_nco_training = {
 }
 great_war_experience = {
 	area = army_leadership
-	year = 1920
+	year = 1836
 	cost = 21600
 	unciv_military = yes
 	morale = 0.5
