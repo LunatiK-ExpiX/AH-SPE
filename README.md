@@ -1,16 +1,17 @@
 # AHMP
 
-AH-SMP is a fork of AHMP that aims to make the mod better for singleplayer
+AHMP is a fork of HPM catered for Multiplayer & Project Alice.
 
 ## Philosophy
 
-- The AI and player should always be able to one up the other
-- No one should be able to spam to win
-- Historical accuracy must be included in a way that makes gameplay fun
+- If the AI can do it, so can the player
+- And if the player can do it, so can the AI
+- There is no wrong option
+- No railroading, use "natural" game mechanics instead of forcing it
 
 ## How to play?
 
-Some of the stuff from AHMP is carried over, but gameplay will be more vanilla like.
+Since the game is heavily rebalanced, forget what you learnt from vanilla - it's going to be harmful:
 
 ### Do's and don't's!
 
@@ -34,4 +35,22 @@ Some of the stuff from AHMP is carried over, but gameplay will be more vanilla l
 
 ## Changes
 
-See the changes from AHMP, it's important to understand them.
+- New substate mechanics! At the start of the game various nations will be split in substates, fear not, once they develop enough and have high enough administration, they will be integrated peacefully!
+- War exhaustion has been reduced considerably, but it can start to add up if you are at war for a long period of time (+3 years)
+- Casualties now are extremely devastating for your POPs, so you should take care of your armies
+- Technologies are all researchable day 1
+- Emigration/Immigration to the new world is now natural instead of being forced
+- Made national focuses even more powerful, especially party loyalty ones
+- Generals and Admirals are now considerably rarer, and die faster; they however amass more prestige
+- You're able to mobilize way more if you're jingoist or pro-military
+- Dreadnoughts, Ironclads and Cruisers are massively buffed so they make it very stupid to send Man 'o Wars against them
+- Same with Armors with Infantry
+- Regiments minimum size is 100 and 1,000 (max)
+- Understaffed regiments, basically you don't magically spawn soldiers, the number of soldiers on the brigades actually correspond 1:1 to a POP
+- Wartime soldier promotion increased
+- Sikhim, Nepal and Bhutan become puppets of Britain
+- Sokoto has puppets on sorrounding african nations, for "somewhat historical" and balance purpouses
+- Release vassal decisions removed, because Alice can already release vassals w/o decisions
+- More research points allowed to be stored
+- Less conservative UH changes when doing reforms
+- Speed up research

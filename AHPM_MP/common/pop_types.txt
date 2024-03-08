@@ -276,7 +276,7 @@ demotion_chance = {
 
 #general migration chance mtth, same for all pops
 migration_chance = {
-	factor = 0.1
+	factor = 0.25
 	modifier = { factor = -0.15 state_scope = { has_factories = yes } }
 	modifier = { factor = 0.75 location = { controlled_by != owner } }
 	modifier = { factor = -0.05 location = { is_capital = yes } }
@@ -297,7 +297,7 @@ migration_chance = {
 
 #general colonial migration mtth, same for all pops
 colonialmigration_chance = {
-	factor = 0.1
+	factor = 0.25
 	modifier = { factor = -1 border_policy = closed_borders }
 	modifier = { factor = -0.15 state_scope = { has_factories = yes } }
 	modifier = { factor = 0.75 location = { controlled_by != owner } }
@@ -319,7 +319,7 @@ colonialmigration_chance = {
 
 #general emigration chance
 emigration_chance = {
-	factor = 0.1
+	factor = 0.25
 	modifier = { factor = -1 border_policy = closed_borders }
 	modifier = { factor = -0.15 state_scope = { has_factories = yes } }
 	modifier = { factor = 0.75 location = { controlled_by != owner } }
@@ -341,7 +341,7 @@ emigration_chance = {
 
 #general assimilation mtth, same for all pops
 assimilation_chance = {
-	factor = 0.5
+	factor = 1
 	group = {
 		modifier = {
 			factor = 0.1
