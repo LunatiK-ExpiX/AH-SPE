@@ -19,19 +19,19 @@ realism = {
 }
 impressionism = {
 	area = aesthetics
-	year = 1830
+	year = 1848
 	cost = 28800
 	increase_research = 0.15
 }
 expressionism = {
 	area = aesthetics
-	year = 1830
+	year = 1883
 	cost = 36000
 	increase_research = 0.15
 }
 mass_culture_n_the_avant_garde = {
 	area = aesthetics
-	year = 1830
+	year = 1917
 	cost = 43200
 	increase_research = 0.15
 }
@@ -45,31 +45,31 @@ late_enlightenment_philosophy = {
 }
 idealism = {
 	area = philosophy
-	year = 1830
+	year = 1843
 	cost = 14400
 	increase_research = 0.15
 }
 empiricism = {
 	area = philosophy
-	year = 1830
+	year = 1877
 	cost = 21600
 	increase_research = 0.15
 }
 analytic_philosophy = {
 	area = philosophy
-	year = 1830
+	year = 1891
 	cost = 28800
 	increase_research = 0.15
 }
 phenomenology_n_hermeneutic = {
 	area = philosophy
-	year = 1830
+	year = 1901
 	cost = 36000
 	increase_research = 0.15
 }
 anti__rationalism = {
 	area = philosophy
-	year = 1830
+	year = 1909
 	cost = 43200
 	increase_research = 0.15
 }
@@ -100,7 +100,7 @@ functionalism = {
 }
 biologism = {
 	area = social_thought
-	year = 1830
+	year = 1859
 	cost = 14400
 
 	colonial_migration = 0.05
@@ -108,7 +108,7 @@ biologism = {
 }
 social_science = {
 	area = social_thought
-	year = 1830
+	year = 1864
 	cost = 18000
 
 	colonial_migration = 0.05
@@ -116,7 +116,7 @@ social_science = {
 }
 social_alienation = {
 	area = social_thought
-	year = 1830
+	year = 1923
 	cost = 21600
 
 	colonial_migration = 0.05
@@ -231,13 +231,13 @@ ideological_thought = {
 }
 state_n_government = {
 	area = political_thought
-	year = 1830
+	year = 1848
 	cost = 10800
 	max_national_focus = 1
 }
 nationalism_n_imperialism = {
 	area = political_thought
-	year = 1830
+	year = 1865
 	cost = 14400
 
 	max_national_focus = 1
@@ -312,7 +312,7 @@ nationalism_n_imperialism = {
 }
 revolution_n_counterrevolution = {
 	area = political_thought
-	year = 1830
+	year = 1882
 	cost = 18000
 
 	max_national_focus = 1
@@ -355,7 +355,7 @@ revolution_n_counterrevolution = {
 }
 mass_politics = {
 	area = political_thought
-	year = 1830
+	year = 1900
 	cost = 21600
 
 	max_national_focus = 1
@@ -457,11 +457,11 @@ associationism = {
 		}
 		modifier = {
 			factor = 1.1
-			year = 1830 #1840
+			year = 1840 #1840
 		}
 		modifier = {
 			factor = 2
-			year = 1830 #1850
+			year = 1844 #1850
 		}
 		modifier = {
 			factor = 0.25
@@ -471,7 +471,7 @@ associationism = {
 }
 phenomenalism = {
 	area = psychology
-	year = 1830
+	year = 1848
 	cost = 10800
 
 	regular_experience_level = 5
@@ -489,11 +489,11 @@ phenomenalism = {
 		}
 		modifier = {
 			factor = 1.1
-			year = 1830 #1860
+			year = 1852 #1860
 		}
 		modifier = {
 			factor = 2
-			year = 1830
+			year = 1856
 		}
 		modifier = {
 			factor = 0.25
@@ -503,7 +503,7 @@ phenomenalism = {
 }
 experimental_psychology = {
 	area = psychology
-	year = 1830
+	year = 1862
 	cost = 14400
 
 	regular_experience_level = 5
@@ -521,11 +521,11 @@ experimental_psychology = {
 		}
 		modifier = {
 			factor = 1.1
-			year = 1830 #1860
+			year = 1866 #1860
 		}
 		modifier = {
 			factor = 2
-			year = 1830 #1870
+			year = 1870 #1870
 		}
 		modifier = {
 			factor = 0.25
@@ -535,7 +535,7 @@ experimental_psychology = {
 }
 psychoanalysis = {
 	area = psychology
-	year = 1830
+	year = 1882
 	cost = 18000
 
 	regular_experience_level = 5
@@ -553,11 +553,11 @@ psychoanalysis = {
 		}
 		modifier = {
 			factor = 1.1
-			year = 1830 #1880
+			year = 1886 #1880
 		}
 		modifier = {
 			factor = 2
-			year = 1830 #1890
+			year = 1890 #1890
 		}
 		modifier = {
 			factor = 0.25
@@ -568,7 +568,7 @@ psychoanalysis = {
 }
 behaviorism = {
 	area = psychology
-	year = 1830
+	year = 1920
 	cost = 21600
 
 	regular_experience_level = 5
@@ -586,11 +586,11 @@ behaviorism = {
 		}
 		modifier = {
 			factor = 1.1
-			year = 1830
+			year = 1924
 		}
 		modifier = {
 			factor = 2
-			year = 1920
+			year = 1928
 		}
 		modifier = {
 			factor = 0.25
