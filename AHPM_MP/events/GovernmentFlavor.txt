@@ -627,16 +627,37 @@ country_event = {
 	picture = "treaty"
 	trigger = {
 		is_substate = yes
-		war = no
+		OR = {
+			war = no
+			AND = {
+				OR = {
+					is_greater_power = yes
+					is_secondary_power = yes
+				}
+				war_countries = {
+					is_greater_power = no
+					is_secondary_power = no
+				}
+			}
+		}
 		civilized = yes
-		overlord = { neighbour = THIS }
+		overlord = {
+			OR = {
+				neighbour = THIS
+				AND = {
+					THIS = { any_owned_province = { is_coastal = yes } }
+					any_owned_province = { is_coastal = yes }
+				}
+			}
+		}
+		OR = {
+			overlord = { nationalism_n_imperialism = 1 }
+			is_greater_power = yes
+			is_secondary_power = yes
+		}
 	}
 	mean_time_to_happen = {
 		months = 24
-		modifier = {
-			factor = 0.1
-			overlord = { nationalism_n_imperialism = 1 }
-		}
 	}
 	option = {
 		name = "EVTOPTA23216"
@@ -684,6 +705,32 @@ country_event = {
 		prestige = -30
 		release_vassal = FROM
 		create_vassal = FROM
+		ai_chance = { factor = 0 }
+	}
+}
+
+
+country_event = {
+	id = 23218
+	title = "EVTNAME23218"
+	desc = "EVTDESC23218"
+	picture = "treaty"
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA23218"
+		overlord = { inherit = THIS }
+		ai_chance = { factor = 1 }
+	}
+	option = {
+		name = "EVTOPTB23218"
+		release_vassal = THIS
+		overlord = {
+			war = {
+				target = THIS
+				attacker_goal = { casus_belli = conquest }
+				defender_goal = { casus_belli = status_quo }
+			}
+		}
 		ai_chance = { factor = 0 }
 	}
 }
